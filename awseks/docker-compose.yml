@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  xlr:
+    image: xebialabs/xl-release:10.2
+    environment:
+      - ACCEPT_EULA=Y
+      - ADMIN_PASSWORD=admin
+    links:
+      - xld
+    ports:
+      - "5516:5516"
+
+
+  xld:
+    image: xebialabs/xl-deploy:10.2
+    environment:
+      - ACCEPT_EULA=Y
+      - ADMIN_PASSWORD=admin
+    ports:
+      - "4516:4516"
