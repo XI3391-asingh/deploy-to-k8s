@@ -1,6 +1,11 @@
 # deploy-to-k8s
 This Repo has the sample code to demonstrate how to create an automated release and deployment pipeline to deploy applications to a Kubernetes cluster in the cloud using Digital.ai Deploy and Release.
 
+[![Alt text](https://img.youtube.com/vi/pZl7rx-v-Xo/0.jpg)](https://www.youtube.com/watch?v=pZl7rx-v-Xo)
+
+
+[https://www.youtube.com/watch?v=pZl7rx-v-Xo](https://www.youtube.com/watch?v=pZl7rx-v-Xo)
+
 Here's the [link to the step-by-step documentation](https://docs.xebialabs.com/v.10.2/digital.ai-by-example/kubernetes/release-and-deploy-to-aws-eks/).
 
 How to run this workflow:
