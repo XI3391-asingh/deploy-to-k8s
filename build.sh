@@ -24,8 +24,6 @@ then
 else
   curl -LO https://dist.xebialabs.com/public/xl-cli/$CLI_VERSION/linux-amd64/xl
   chmod +x xl
-  echo "xld url ${XLD_URL} xld user is ${XLD_USER}, xld password is ${XLD_PASSWD}"
-  echo `env`
   ./xl apply --xl-deploy-url=$XLD_URL --xl-deploy-username=$XLD_USER --xl-deploy-password=$XLD_PASSWD --file dai-deploy/hello-python-deploy.yaml --values version=$TAG
   echo `./xl version`
   rm xl
